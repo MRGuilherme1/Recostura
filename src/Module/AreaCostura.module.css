@@ -1,0 +1,42 @@
+.Conteiner1 {
+    position: relative;
+    display: flex;
+    background-color: rgb(201, 16, 16);
+    width: 90vw;
+    height: 100vh;
+    gap: 2%;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+.ConteinerMenor1{
+    height: 76.389vh;
+    width: 38%;
+    background-image: url(../IMG/SouCostureiro.png.png);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.ConteinerMenor1 img {
+    width: 100%;
+    height: auto;
+}
+.ConteinerMenor1 button {
+    background-color: #F1DBFF;
+    width: 50%;
+    height: 10%;
+}
+.ConteinerMenor2{
+    height: 76.389vh;
+    width: 38%;
+    background-image: url(../IMG/SouCliente.png.png);
+}
+.ConteinerMenor2 img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.ConteinerMenor2 button {
+    width: 50%;
+    height: 10%;
+}
