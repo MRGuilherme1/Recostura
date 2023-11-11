@@ -4,18 +4,20 @@
     background-color: rgb(201, 16, 16);
     width: 90vw;
     height: 100vh;
-    gap: 2%;
+    gap: 1.5%;
     padding-left: 15%;
     padding-top: 10%;
 }
 .ConteinerMenor1{
-    height: 76.389vh;
+    height: 66.389vh;
     width: 38%;
     background-image: url(../IMG/SouCostureiro.png.png);
     background-size: cover;
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 10vh;
 }
 .ConteinerMenor1 img {
     width: 100%;
@@ -24,12 +26,28 @@
 .ConteinerMenor1 button {
     background-color: #F1DBFF;
     width: 50%;
-    height: 10%;
+    height: 30%;
+    border-radius: 20px;
+    border: #F1DBFF solid 1px;
+    font-size: 2em;
+    text-align: center;
+    
+}
+.ConteinerMenor1 button:hover{
+    transition: 0.3s;
+    background-color: #FCD0C3;
+    border: #FCD0C3 solid 1px;
 }
 .ConteinerMenor2{
-    height: 76.389vh;
+    height: 66.389vh;
     width: 38%;
     background-image: url(../IMG/SouCliente.png.png);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10vh;
 }
 .ConteinerMenor2 img {
     width: 100%;
@@ -37,6 +55,16 @@
     background-size: cover;
 }
 .ConteinerMenor2 button {
+    background-color: #FCD0C3;
     width: 50%;
-    height: 10%;
+    height: 30%;
+    border-radius: 20px;
+    border: #FCD0C3 1px solid;
+    font-size: 2em;
+    text-align: center;
+}
+.ConteinerMenor2 button:hover{
+    transition: 0.3s;
+    background-color: #8F9C92;
+    border: #8F9C92 1px solid;
 }

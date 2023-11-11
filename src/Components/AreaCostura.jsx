@@ -5,10 +5,10 @@ function AreaCostura() {
     return (
         <div className={style.Conteiner1}>
             <div className={style.ConteinerMenor1}>
-                <button>Sou costureiro</button>
+                <button>Sou <br></br> costureiro</button>
             </div>
             <div className={style.ConteinerMenor2}>
-                <button>Sou costureiro</button>
+                <button>Buscar <br></br>costureiro</button>
             </div>
 
 
