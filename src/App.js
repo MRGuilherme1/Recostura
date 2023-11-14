@@ -1,14 +1,22 @@
 import './App.css';
+import Cabeçalho from './Components/Header';
 import AreaCostura from './Components/AreaCostura';
-import CarouselItem from './Components/Carousel';
 import TextoIntrodutivo from './Components/TextoIntrodutivo';
+import Rodape from './Components/Footer';
+import Slogan from './Components/Slogan';
+import Equipe from './Components/Equipe';
+{/*import CarouselItem from './Components/Carousel';*/}
 
 function App() {
   return (
     <body>
+      <Cabeçalho />
       <AreaCostura />
-      <CarouselItem />
+      {/*<CarouselItem />*/} 
       <TextoIntrodutivo />
+      <Slogan />
+      <Equipe />
+      <Rodape />
 
 
 

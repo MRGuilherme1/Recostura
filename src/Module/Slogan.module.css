@@ -1,0 +1,11 @@
+.slogan{
+    width: 100%;
+    height: 390px;
+    background-color: #e7c2ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #413634;
+}
