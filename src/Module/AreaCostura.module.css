@@ -1,11 +1,10 @@
 .Conteiner1 {
     position: relative;
     display: flex;
-    background-color: rgb(201, 16, 16);
-    width: 90vw;
-    height: 100vh;
+    width: 85vw;
+    height: 80vh;
     gap: 1.5%;
-    padding-left: 15%;
+    padding-left: 15vw;
     padding-top: 10%;
 }
 .ConteinerMenor1{
