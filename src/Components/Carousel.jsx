@@ -1,38 +1,38 @@
-import style from '../Module/Carousel.Module.css'
+// Carousel.jsx
 
-import {Swiper, SwiperSlide} from 'swiper/react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from 'react-bootstrap/Carousel';
+import Style from "../Module/Carousel.Module.css"; // 
 
-function Carousel() {
 
-   const data =[
-      {id: '1', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyTMSkDmKnvmtM-zSFX-pIG_YGC0oqx4mvAA&usqp=CAU'},
-      {id: '2', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr7xHyGZSJt4HvB2jupFZ8gzqIZLHZ32-Sv2J_vCLA6_CdZUMEEK-kB9cH37xEL59qfqA&usqp=CAU'},
-      {id: '3', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqw3MVPnndofhcGXGZ6kqrg16mXf00R8PUg&usqp=CAU'},
-      {id: '4', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUej81rLC22dKf2eOltt--_9jrwJufAwjZDg&usqp=CAU'},
-   ]
-
-   return (
-      <div className={style.ConteinerCarousel}>
-
-      <Swiper
-         slidesPerView={1}
-         pagination = {{ clickable: true }}
-         navigation      
-      
-      >
-         {data.map( (item) => (
-            <SwiperSlide key={item.id}>
-               <img
-                  src={item.image} 
-                  alt="Slider"
-                  className={style.slideitem} 
-               />
-            </SwiperSlide>
-         ))}
-      </Swiper>
-
-      </div>
-   )
+function Caarousel() {
+  return (
+    <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://images.pexels.com/photos/9850429/pexels-photo-9850429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyTMSkDmKnvmtM-zSFX-pIG_YGC0oqx4mvAA&usqp=CAU'}"
+          alt="Second slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyTMSkDmKnvmtM-zSFX-pIG_YGC0oqx4mvAA&usqp=CAU'}"
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
-export default Carousel
+export default Caarousel;
