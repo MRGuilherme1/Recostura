@@ -1,9 +1,7 @@
-  /* Estilo para os indicadores (pontos) do Carousel */
   .carousel-indicators {
     bottom: 10px; /* Distância do fundo */
   }
   
-  /* Estilo para as imagens no Carousel */
   .carousel-item img {
     background-repeat: no-repeat;
     object-fit: cover; /* Ajuste para cobrir o tamanho do contêiner */
@@ -12,5 +10,4 @@
     padding: 2%;
   }
   
-  /* Adicione outros estilos conforme necessário */
   
